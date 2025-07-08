@@ -1,0 +1,35 @@
+/*
+ * This Project uses maven ?? 
+ * Spring Boot 2
+ * Work machine only has java 1.8.0 = java 8
+ * Home machine has java 19
+ */
+
+
+Environments
+dev 
+~~~~~
+logging.level.org.springframework=trace
+
+Prod
+~~~~~
+logging.level.org.springframework=info
+
+
+• Types of logs 
+	○ Trace 
+		§ Prints everything
+	○ Debug
+		§ Prints a lot more information
+	○ Info
+		§ Prints everything a trace level
+	○ Warning 
+		§ Same as error with more info
+	○ Error 
+		§ Print only errors and exceptions
+	○ Off
+		§ Turn off all logging
+		
+
+D:\eclipse\Learning-SpringFramework-React-Repo\learn-spring-boot2-Maven2\target\
+learn-spring-boot-0.0.1-SNAPSHOT.jar
